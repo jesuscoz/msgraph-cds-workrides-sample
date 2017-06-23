@@ -48,7 +48,7 @@ As of 06/05/2017, WorkRides features 88.6% code share (11% iOS / 11.2% Android /
 ## Setup
 - **Download** or clone the repository.
 - **Rebuild** the WorkRides.sln solution to get all necessary **NuGet** packages.
-- On **WorkRides.Clients.UWP** project, the SQlite reference could be missed. In that case, remove the reference from the project and add it again. To add the reference, in Solution Explorer, right-click on the References node and choose Add Reference. Inside the **UAP > Extensions** section select [SQlite for Universal Windows Platform](https://marketplace.visualstudio.com/items?itemName=SQLiteDevelopmentTeam.SQLiteforUniversalWindowsPlatform) and Rebuild.
+- On **WorkRides.Clients.UWP** project, the SQlite reference sometimes it's not included. In that case, remove the reference from the project and add it again. To add the reference, in Solution Explorer, right-click on the References node and choose Add Reference. Inside the **UAP > Extensions** section select [SQlite for Universal Windows Platform](https://marketplace.visualstudio.com/items?itemName=SQLiteDevelopmentTeam.SQLiteforUniversalWindowsPlatform) and Rebuild.
 
 This app will run as is with the preconfigured settings so that you can try and learn how it works. You can use alexa@fabrikamco.onmicrosoft.com (pass: Microsoft2017) to run the app as soon as you build to see how it works with sample data.
 
